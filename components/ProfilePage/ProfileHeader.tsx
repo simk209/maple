@@ -34,7 +34,7 @@ export const ProfileHeader = ({
           <ProfileDisplayName className={`col-3 col-md-auto`}>
             {profile.fullName}
           </ProfileDisplayName>
-          {isOrg ? <ProfileButtonsOrg isUser={isUser} /> : null}
+          {<ProfileButtonsOrg isUser={isUser} />}
         </div>
       </div>
       <div className="col-12 col-md-2 d-flex justify-content-center justify-content-md-end align-items-center ms-md-auto ">
